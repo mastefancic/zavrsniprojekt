@@ -1,0 +1,220 @@
+.header {
+	height: 630px;
+	background: url('img/bg.png') no-repeat;
+	background-size: cover;
+}
+.header a {
+	text-transform: uppercase;
+	font-size: 18pt;
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	padding: 40px 0 0 40px;
+	display: block;
+}
+.header a:hover {
+	text-decoration: none;
+}
+
+.header p {
+	font-size: 42pt;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-transform: lowercase;
+}
+
+@media screen and (max-width: 760px) {
+	.header {
+		height: 300px;
+	}
+	.header a {
+		display: none;
+	}
+}
+	.main-menu {
+		width: 100%;
+		background-color: #F1C40F;
+	}
+	
+	.main-menu li {
+		display: inline-block;
+		padding: 0 30px;
+		transition: 1s;
+	}
+	
+	.main-menu li a {
+		line-height: 100px;
+		color: #000;
+	}
+	
+		.main-menu li:hover {
+		background-color: #2c3e50;
+		}
+		
+		.main-menu li:hover a{
+		color: #fff;
+	}
+		
+	@media screen and (max-width: 760px) {
+		.main-menu li {
+			display: block;
+		}
+		.main-menu {
+			padding: 0; 
+			text-align: center;
+			}
+	}
+		
+		.gallery img {
+			width: 100%; 
+		}
+		
+		.gallery div {
+			padding: 0;
+		}
+		
+		.overlay {
+			background-color: #000;
+			position: absolute; 
+			top:0;
+			left:0;
+			right:0;
+			bottom:0;
+			opacity:0;
+			transition: 1s ease;
+		} 
+		
+		.image-container:hover .overlay {
+			opacity: 0.7;
+		}
+		
+		.image-container:hover img {
+			filter: blur (3px)
+		}
+		
+		.overlay p {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: #fff;
+			font-size: 18pt;
+		}
+		
+		.overlay p a { 
+		color: #fff;
+		text-decoration: none;
+		}
+		
+		.contact-form {
+			background-color: #F1C40F;
+			padding: 100px;
+		}
+		
+		.contact-form h1 {
+			font-size: 24pt;
+			margin-bottom: 40px;
+			text-transform: uppercase;
+		}
+		
+		.form-control {
+			height: 45px;
+			border-radius: 0;
+			border: 1px solid #000;
+		}
+		
+		.form-control::placeholder {
+			color: #000;
+		}
+			
+		.btn, .btn:hover {
+			padding: 15px 25px;
+			background-color: #000;
+			color: #fff;
+			border-radius: 0;
+		}
+			
+		.btn-default {
+			border: 0;
+		} 
+		
+		.footer {
+			
+			background-color: #A52A2A;
+			height: 400px;
+		}
+		
+		.footer ul {
+			float: right;
+			margin-top: 300px;
+			margin-right: 50px;
+		}
+		
+		.footer ul li {
+			display: inline-block;
+		}
+		
+		.footer ul li a {
+			color: #fff;
+			font-size: 18pt;
+			padding-left: 20px;
+			padding-right: 20px;
+			display: block;
+		} 
+		
+	@media screen and (max-width: 760px); {
+		.contact-form {
+			padding: 20px;
+		}
+		.footer {
+			text-align: center;
+		}
+		.footer-img {
+			margin: 80px auto 30px auto; 
+			width: 50%;
+		}
+		.footer ul {
+			float: none;
+			margin-top: 20px;
+		}
+		.footer ul li {
+			display: block;
+		}
+	}
+		
+		
+	
+		
+		
+	
+		.drustvene-mreze div {
+			height: 250px;
+			font-size: 28pt;
+			color: grey;
+		}
+		
+		.drustvene-mreze p {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+			
+		.light-gray-bg {
+			background-color: #F0F0F0;
+		}
+		
+		.dark-gray-bg {
+			background-color: #D0D0D0;
+		}
+		
+
+	
+		
+				
+		
+	
